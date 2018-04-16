@@ -10,4 +10,5 @@
 /.pytest_cache
 /.hypothesis
 /.tox
-*/__pycache__/
+*/__pycache__
+/build
