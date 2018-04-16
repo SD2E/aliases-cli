@@ -2,11 +2,11 @@
 Syd, an Alias Manager
 #####################
 
-.. image:: https://travis-ci.org/SD2E/alias-cli.svg?branch=master
-    :target: https://travis-ci.org/SD2E/alias-cli
+.. image:: https://travis-ci.org/SD2E/aliases-cli.svg?branch=master
+    :target: https://travis-ci.org/SD2E/aliases-cli
 
 .. image:: https://img.shields.io/pypi/l/Django.svg
-    :target: https://raw.githubusercontent.com/SD2E/alias-cli/master/LICENSE
+    :target: https://raw.githubusercontent.com/SD2E/aliases-cli/master/LICENSE
 
 A CLI to manage Reactor and App alias mappings and permissions.
 
