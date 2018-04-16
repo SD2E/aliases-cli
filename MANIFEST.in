@@ -1,0 +1,14 @@
+# MANIFEST.in
+exclude .gitignore
+exclude .coverage
+exclude .travis.yml
+include README.rst
+include setup.cfg
+include requirements.txt
+include requirements-py2.txt
+prune .cache
+prune .git
+prune build
+prune dist
+recursive-exclude *.egg-info *
+recursive-include tests *
