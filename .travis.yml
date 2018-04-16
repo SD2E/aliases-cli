@@ -8,4 +8,4 @@ install:
 - pip install -r requirements-travis.txt
 - pip install -r requirements.txt
 script:
-- python -m pytest -s -vv --cov=agavedb tests
+- python -m pytest -s -vv --cov=syd tests
