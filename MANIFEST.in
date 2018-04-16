@@ -3,9 +3,10 @@ exclude .gitignore
 exclude .coverage
 exclude .travis.yml
 include README.rst
+include LICENSE
+include CHANGELOG.md
 include setup.cfg
 include requirements.txt
-include requirements-py2.txt
 prune .cache
 prune .git
 prune build

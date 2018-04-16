@@ -10,9 +10,6 @@ from setuptools.command.test import test as TestCommand
 from syd import __version__
 
 
-requires = [pkg for pkg in open('requirements.txt').readlines()]
-
-
 class PyTest(TestCommand):
 
     def finalize_options(self):
@@ -27,8 +24,11 @@ class PyTest(TestCommand):
 
 
 def readme():
-    with open('README.md') as f:
+    with open('README.rst') as f:
         return f.read()
+
+
+requires = [pkg for pkg in open('requirements.txt').readlines()]
 
 
 setup(name='syd',
