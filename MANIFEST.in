@@ -7,6 +7,7 @@ include LICENSE
 include CHANGELOG.md
 include setup.cfg
 include requirements.txt
+include requirements-travis.txt
 prune .cache
 prune .git
 prune build

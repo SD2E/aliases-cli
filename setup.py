@@ -29,6 +29,7 @@ def readme():
 
 
 requires = [pkg for pkg in open('requirements.txt').readlines()]
+requires_test = [pkg for pkg in open('requirements-travis.txt').readlines()]
 
 
 setup(name='syd',
@@ -60,5 +61,5 @@ setup(name='syd',
       ],
       keywords='cli',
       cmdclass={'test': PyTest},
-      tests_require=['pytest'],
+      tests_require=requires_test,
       test_suite='tests',)
