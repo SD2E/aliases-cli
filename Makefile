@@ -1,8 +1,9 @@
 .PHONY: sdk tests
 .SILENT: sdk
 
+# This will soon be a submodule pointing to reactors standalone repo
 sdk:
-	cp -R ~/src/SD2/base-images/reactors/sdk/python/reactors sydney/
+	true
 
 tests:
 	tox
@@ -16,6 +17,7 @@ clean:
 	rm -rf tests/__pycache__
 	rm -rf syd/__pycache__
 	rm -rf *.pyc
+	rm -rf build
 
 install:
 	python setup.py install
