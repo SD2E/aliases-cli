@@ -62,4 +62,4 @@ setup(name='syd',
       keywords='cli',
       cmdclass={'test': PyTest},
       tests_require=requires_test,
-      test_suite='tests',)
+      test_suite='tests')

@@ -5,6 +5,15 @@
 sdk:
 	true
 
+pytest2:
+	python -m pytest -s -vvv tests
+
+pytest3:
+	python3 -m pytest -s -vvv tests
+
+pytest: pytest2 pytest3
+	true
+
 tests:
 	tox
 
