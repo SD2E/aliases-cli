@@ -47,6 +47,7 @@ setup(name='syd',
           ],
       },
       packages=find_packages(exclude=['docs', 'tests*']),
+      data_files=[('', ['requirements.txt', 'requirements-2.txt'])],
       classifiers=[
           'Intended Audience :: Developers',
           'Topic :: Utilities',

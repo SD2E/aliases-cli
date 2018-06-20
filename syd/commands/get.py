@@ -1,4 +1,4 @@
-"""The hello command."""
+"""The get command."""
 
 from .base import Base
 

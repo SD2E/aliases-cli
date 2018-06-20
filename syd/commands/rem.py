@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-
+"""The rem command."""
 from .base import Base
 
 

@@ -1,10 +1,8 @@
-#!/usr/bin/env python
-
+"""The acl command."""
 from .base import Base
 
 
 class ManageAcl(Base):
-    """Say hello, world!"""
 
     def run(self):
         setacl, readacl, writeacl = (False, False, False)

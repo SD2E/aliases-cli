@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-
+"""The add command."""
 from .base import Base
 
 
