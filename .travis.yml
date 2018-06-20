@@ -5,6 +5,8 @@ python:
 - '2.7'
 - '3.6'
 install:
+- make all
 - pip install -r requirements.txt
+- make install
 script:
 - python -m pytest -s -vv --cov=syd tests
