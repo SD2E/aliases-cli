@@ -42,5 +42,5 @@ distclean: clean
 	rm -rf requirements*.txt
 	rm -rf .tox
 
-install:
+install: all
 	python setup.py install
